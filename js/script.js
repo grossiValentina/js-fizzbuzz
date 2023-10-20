@@ -16,9 +16,7 @@ for(let i = 1; i <= 100; i++) {
     console.log(result);
     grid +=  `<div class="cell ${result}">${result}</div>`;
     console.log(result);
-
-  
+ 
  }
  
-
  rowElem.innerHTML = grid;
